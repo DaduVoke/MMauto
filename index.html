@@ -1,0 +1,534 @@
+<!doctype html>
+ <html class="no-js " lang="en"> 
+<head>
+
+   
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+  
+    <title>MMAuto</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+ 
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet"> 
+	
+    
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+
+	
+</head>
+<body>  
+
+    
+    <div id="preloader">
+        <img class="preloader" src="images/loader.gif" alt="">
+    </div>
+
+    <div id="wrapper">
+        
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    
+                    <div id="div-forms">
+                        <form id="login-form">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="flaticon-add" aria-hidden="true"></span>
+                            </button>
+                            <div class="modal-body">
+                                <input class="form-control" type="text" placeholder="What you are looking for?" required>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <header class="header">
+            <div class="topbar clearfix">
+                <div class="container">
+                   
+                </div>
+            </div>
+
+            <div class="container">
+                <nav class="navbar navbar-default yamm">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                           
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="logo-normal">
+                            <a class="navbar-brand" href="index.html"><img src="images/logo2.PNG" alt="" height="60px" width="150PX"></a>
+                        </div>
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html">მთავარი</a></li>
+                            <li class="dropdown yamm-fw yamm-half"><a href="#" data-toggle="dropdown" class="dropdown-toggle active">მწარმოებელი<b class="fa fa-angle-down"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="yamm-content clearfix">
+                                            <div class="row-fluid">
+                                                <div class="col-md-6 col-sm-6">
+                                                    <h4></h4>
+                                                    <ul>
+                                                        <li><a href="toyota.htm">ტოიოტა</a></li>
+                                                        <li><a href="lexus.htm">ლექსუსი</a></li>
+                                                        <li><a href="hyundai.htm">ჰიუნდაი</a></li>
+                                                        <li><a href="ford.htm">ფორდი</a></li>
+                                                        <li><a href="nissan.htm">ნისანი</a></li>
+                                                        <li><a href="mitsubishi.htm">მიცუბიში</a></li>
+                                                        <li><a href="kia.htm">კია</a></li>
+                                                        <li><a href="mazda.htm">მაზდა</a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6">
+                                                    <div class="menu-widget text-center">
+                                                        <div class="image-wrap entry">
+                                                            <img src="upload/lexus es350.png" alt="" class="img-responsive">
+                                                            <div class="magnifier">
+                                                                 <a href="#" title=""><i class="flaticon-add"></i></a>
+                                                            </div>
+                                                        </div>
+                                                        <h5><a href="#">ლექსუსის უახლესი ნაწილები</a></h5>
+                                                        
+                                                        <a href="#" class="menu-button">ნახვა</a>
+                                                    </div><
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="events.html">ნაწილები</a></li>
+                            <li><a href="events.html">პარტნიორები</a></li>
+                          
+                            <li><a href="page-contact.html">კონტაქტი</a></li>
+                            <li class="iconitem"><a href="lexus.htm" data-toggle="modal" data-target="#login-modal"><i class="fa fa-search"></i></a></li>
+                          
+                        </ul>
+                    </div>
+                </nav><!-- end navbar -->
+            </div><!-- end container -->
+        </header>
+
+        <section id="home" class="video-section js-height-full">
+            <div class="overlay"></div>
+            <div class="home-text-wrapper relative container">
+                <div class="home-message">
+                    <p>mmAuto <br>მანქანის ნაწილები</p>
+                    <small></small>
+                    <div class="btn-wrapper">
+                        <div class="text-center">
+                      </a> &nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-default wow slideInRight">ნახვა</a>
+                        </div>
+                    </div><!-- end row -->
+                </div>
+            </div>
+            <script>$(function() {
+                $('a[href*=#]').on('click', function(e) {
+                  e.preventDefault();
+                  $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+                });
+              });</script>
+              <div class="slider-bottom">scroll down                         
+               
+            </div>
+
+        <section class="section gb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>პოპულარული ფირმები</h3>
+                    
+                </div><!-- end title -->
+
+                <div id="owl-01" class="owl-carousel owl-theme owl-theme-01">
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/Toyota.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>ტოიოტა</small>
+                                    <a href="#" title="">ხელმისაწვდომი მოდელების ნაწილები</a>
+                                </h4>
+                                <p>TOYOTA CAMRY, TOYOTA AVALON <br>TOYOTA RAV-4, TOYOTA C-HR <br>TOYOTA COROLLA, TOYOTA PRIUS <br>TOYOTA HIGHLANDER, </p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                   
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                   
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/Lexus.png" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>ლექსუსი</small>
+                                    <a href="#" title="">ხელმისაწვდომი მოდელების ნაწილები</a>
+                                </h4>
+                                <p>LEXUS ES300H</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                 
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                   
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/Nissan_Logo.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                    <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>ნისანი</small>
+                                    <a href="#" title="">ხელმისაწვდომი მოდელების ნაწილები</a>
+                                </h4>
+                                <p>NISSAN JUKE <br>NISSAN KICKS <br>NISSAN ROGUE</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                   
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                   
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/hyundai.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>ჰიუნდაი</small>
+                                    <a href="#" title="">ხელმისაწვდომი მოდელების ნაწილები</a>
+                                </h4>
+                                <p>Pellentesque ut enim dictum, interdum lorem eget, vulputate eros sed felis euismod.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                 
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                   
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+
+                    <div class="caro-item">
+                        <div class="course-box">
+                            <div class="image-wrap entry">
+                                <img src="images/nissan.PNG" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="#" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+                            <div class="course-details">
+                                <h4>
+                                    <small>Javascript</small>
+                                    <a href="#" title="">Modern JavaScript Linting With ESLint</a>
+                                </h4>
+                                <p>Fusce interdum, elit sit amet vehicula malesuada, eros libero elementum orci.</p>
+                            </div><!-- end details -->
+                            <div class="course-footer clearfix">
+                                <div class="pull-left">
+                                    <ul class="list-inline">
+                                        <li><a href="#"><i class="fa fa-user"></i> 21</a></li>
+                                        <li><a href="#"><i class="fa fa-clock-o"></i> 15 Min.</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+
+                                <div class="pull-right">
+                                    <ul class="list-inline">
+                                        <li><a href="#">$22.00</a></li>
+                                    </ul>
+                                </div><!-- end left -->
+                            </div><!-- end footer -->
+                        </div><!-- end box -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+
+                <hr class="invis">
+
+                <div class="section-button text-center">
+                    <a href="#" class="btn btn-primary">ნახეთ ყველა ფირმა</a>
+                </div>
+            </div><!-- end container -->
+        </section>
+
+        
+
+        <section class="section db">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer1">28481</h4>
+                            <h3>მნახველი</h3>
+                            
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer2">16408</h4>
+                            <h3>კლიენტი</h3>
+                            
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-4">
+                        <div class="stat-count">
+                            <h4 class="stat-timer3">13567</h4>
+                            <h3> გაყიდული ნივთი</h3>
+                            
+                        </div><!-- stat-count -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        
+
+        <section class="section gb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>ახალი დამატებული</h3>
+                    
+                </div><!-- end title -->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/kicks.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">Nissan Kicks ნისან კიკსი</a></h4>
+                                <p>ფარები, ბამპერი, სამაგრები, კარები, დეტალურათ იხილით</p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">21 March 2017</a></li>
+                                    <li><a href="#">by WP Destek</a></li>
+                                    <li><a href="#">14 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/Camry2018-20.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">The most suitable web design & development tutorials</a></h4>
+                                <p>Sed suscipit neque in erat posuere tristique aliquam porta vestibulum. Cras placerat tincidunt. </p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">20 March 2017</a></li>
+                                    <li><a href="#">by WP Destek</a></li>
+                                    <li><a href="#">11 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="blog-box">
+                            <div class="image-wrap entry">
+                                <img src="upload/outlander.jpg" alt="" class="img-responsive">
+                                <div class="magnifier">
+                                     <a href="blog-single.html" title=""><i class="flaticon-add"></i></a>
+                                </div>
+                            </div><!-- end image-wrap -->
+
+                            <div class="blog-desc">
+                                <h4><a href="blog-single.html">Design for all mobile devices! This is name "responsive"</a></h4>
+                                <p>Suspendisse scelerisque ex ac mattis molestie vel enim ut massa placerat faucibus sed ut dui vivamus. </p>
+                            </div><!-- end blog-desc -->
+
+                            <div class="post-meta">
+                                <ul class="list-inline">
+                                    <li><a href="#">19 March 2017</a></li>
+                                    <li><a href="#">by WP Destek</a></li>
+                                    <li><a href="#">44 Share</a></li>
+                                </ul>
+                            </div><!-- end post-meta -->
+                        </div><!-- end blog -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+       
+<!--===================================----------------------------00000000000000 სამუშაოოოა----
+            <footer class="section footer noover">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Subscribe Our Newsletter</h3>
+                            <div class="newsletter-widget">
+                                <p>You can opt out of our newsletters at any time.<br> See our <a href="#">privacy policy</a>.</p>
+                                <form class="form-inline" role="search">
+                                    <div class="form-1">
+                                        <input type="text" class="form-control" placeholder="Enter email here..">
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
+                                    </div>
+                                </form>
+                                <img src="images/payments.png" alt="" class="img-responsive">
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Join us today</h3>
+                            <p>Would you like to earn your profits by joining our team? Join us without losing time.</p>
+                            <a href="#" class="readmore">Became a Teacher</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Popular Tags</h3>
+                            <div class="tags-widget">   
+                                <ul class="list-inline">
+                                    <li><a href="#">course</a></li>
+                                    <li><a href="#">web design</a></li>
+                                    <li><a href="#">development</a></li>
+                                    <li><a href="#">language</a></li>
+                                    <li><a href="#">teacher</a></li>
+                                    <li><a href="#">speaking</a></li>
+                                    <li><a href="#">material</a></li>
+                                    <li><a href="#">css3</a></li>
+                                    <li><a href="#">html</a></li>
+                                    <li><a href="#">learning</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Support</h3>
+                            <div class="list-widget">   
+                                <ul>
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Copyrights</a></li>
+                                    <li><a href="#">Create a Ticket</a></li>
+                                    <li><a href="#">Pricing & Plans</a></li>
+                                    <li><a href="#">Carrier</a></li>
+                                    <li><a href="#">Trademark</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="copyrights">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="pull-left">
+                        <div class="cop-logo">
+                            <a href="#"><img src="images/logo.PNG" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="pull-right">
+                        <div class="footer-links">
+                            <ul class="list-inline">
+                                <li>Design : <a href="https://html.design">HTML.Design</a></li>
+                                <li>Distributed by : <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+===================================----------------------------00000000000000 -->
+
+    <!-- ქუარის ფაილები -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- პერზსთვის--->
+    <script src="js/videobg.js"></script>
+
+</body>
+</html>
